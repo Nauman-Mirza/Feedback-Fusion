@@ -1,0 +1,141 @@
+/* Add CSS for the navigation bar and buttons */
+.navbar {
+    background-color: #3498db;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 5px 0;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container1 h1 {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.logout-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.logout-button:hover {
+    background-color: #1c8ad9;
+}
+
+/* Apply styles to the feedback list */
+.main {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c8ad9;
+}
+
+
+.buttons form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.buttons form button:hover {
+    background-color: #1c8ad9;
+}
+
+.main1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c8ad9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Style feedback list rows */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #d3e6f8;
+}
+
+table form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+table form button:hover {
+    background-color: #1c8ad9;
+}
+
+
+.comments-textarea {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.add-comment-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.add-comment-button:hover {
+    background-color: #1c8ad9;
+}

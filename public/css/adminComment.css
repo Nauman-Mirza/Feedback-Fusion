@@ -1,0 +1,106 @@
+/* Add CSS for the navigation bar and logout button */
+.navbar {
+    background-color: #3498db;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 5px 0;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container1 h1 {
+    margin-left: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+table tr:hover {
+    background-color: #d3e6f8;
+}
+
+.buttons button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.buttons button:hover {
+    background-color: #1c8ad9;
+}
+
+.main {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c8ad9;
+}
+
+/* Style the Comments View section */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c8ad9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Style feedback list rows */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #d3e6f8;
+}
+
+.table-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.table-button:hover {
+    background-color: #1c8ad9;
+}

@@ -1,0 +1,47 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #3498db;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 5px 0;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.main-heading {
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.home-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.home-button:hover {
+    background-color: #1c8ad9;
+}
+
+/* Feedback Heading Styles */
+.feedback-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c8ad9;
+    margin-top: 60px;
+}
