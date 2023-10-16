@@ -133,9 +133,46 @@ table form button:hover {
     font-size: 15px;
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .add-comment-button:hover {
     background-color: #1c8ad9;
+}
+
+
+.emoji-picker {
+    display: none;
+    position: absolute;
+    bottom: 15px;
+    left: 128px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.emoji {
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.emoji:hover {
+    transform: scale(1.2);
+}
+
+
+.emoji-picker-button {
+    display: block;
+    margin: 0 120px auto;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

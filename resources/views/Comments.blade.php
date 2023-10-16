@@ -40,7 +40,52 @@
         @csrf
         
         <textarea id="comments" name="comments" rows="4" cols="50" class="comments-textarea"></textarea><br><br>
+        
+        <!-- Emoji Picker Button -->
+        <button type="button" id="emoji-picker-button" class="emoji-picker-button">😊 Emoji</button>
+
+        <!-- Hidden Emoji Picker -->
+        <div id="emoji-picker" class="emoji-picker">
+    <span class="emoji" onclick="insertEmoji('😊')">😊</span>
+    <span class="emoji" onclick="insertEmoji('🌟')">🌟</span>
+    <span class="emoji" onclick="insertEmoji('🎉')">🎉</span>
+    <span class="emoji" onclick="insertEmoji('❤️')">❤️</span>
+    <span class="emoji" onclick="insertEmoji('😂')">😂</span>
+    <span class="emoji" onclick="insertEmoji('👍')">👍</span>
+    <span class="emoji" onclick="insertEmoji('👏')">👏</span>
+    <span class="emoji" onclick="insertEmoji('🥂')">🥂</span>
+    <span class="emoji" onclick="insertEmoji('🎁')">🎁</span>
+    <span class="emoji" onclick="insertEmoji('🤗')">🤗</span>
+    <span class="emoji" onclick="insertEmoji('🙌')">🙌</span>
+    <span class="emoji" onclick="insertEmoji('🌺')">🌺</span>
+    <span class="emoji" onclick="insertEmoji('🍀')">🍀</span>
+    <span class="emoji" onclick="insertEmoji('💖')">💖</span>
+    <span class="emoji" onclick="insertEmoji('🚀')">🚀</span>
+    <span class="emoji" onclick="insertEmoji('🌈')">🌈</span>
+    <span class="emoji" onclick="insertEmoji('🐱')">🐱</span>
+    <span class="emoji" onclick="insertEmoji('🌞')">🌞</span>
+    <span class="emoji" onclick="insertEmoji('🍎')">🍎</span>
+    <span class="emoji" onclick="insertEmoji('🍓')">🍓</span>
+</div>
+
+
         <button type="submit" class="add-comment-button">Done</button>
     </form>
+    
+    <!-- JavaScript to handle emoji insertion -->
+    <script>
+        function insertEmoji(emoji) {
+            var textarea = document.getElementById('comments');
+            var currentText = textarea.value;
+            var caretPosition = textarea.selectionStart;
+            var newText = currentText.substring(0, caretPosition) + emoji + currentText.substring(caretPosition);
+            textarea.value = newText;
+        }
+
+        document.getElementById('emoji-picker-button').addEventListener('click', function () {
+            var emojiPicker = document.getElementById('emoji-picker');
+            emojiPicker.style.display = (emojiPicker.style.display === 'block') ? 'none' : 'block';
+        });
+    </script>
 </body>
 </html>
